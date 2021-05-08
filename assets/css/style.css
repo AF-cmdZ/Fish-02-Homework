@@ -1,4 +1,4 @@
-/* Element Selectors */
+/* --------------Element Selectors Start---------------- */
 
 * {
     box-sizing: border-box;
@@ -6,6 +6,7 @@
     margin: 0;
 }
 
+/* background color of website */
 body {
     background-color: #d9dcd6;
 }
@@ -22,6 +23,7 @@ h1 {
     font-size: 48px;
 }
 
+/* selectors for top navigation bar start here */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,22 +45,26 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* selectors for top navigation bar end here */
 
+/* services section headlines */
 h2 {
-    margin-bottom: 20px;
     font-size: 36px;
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 16px;
 }
 
+/* Sidebar "benefits" headlines */
 h3 {
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* footer headline */
 h4 {
     font-size: 20px;
 }
@@ -70,12 +76,15 @@ footer {
     text-align: center;
 }
 
-/* Class Selectors */
+/* -------------- Element Selectors End ---------------- */
+
+/* -------------- Class Selectors Start --------------- */
 
 .seo {
     color: #d9dcd6;
 }
 
+/* services section start */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -98,7 +107,9 @@ footer {
     float: right;
     margin-left: 25px;
 }
+/* services section end */
 
+/* benefits sidebar aside start */
 .benefit-solution {
     margin-bottom: 32px;
     color: #ffffff;
@@ -109,8 +120,13 @@ footer {
     margin: 10px auto;
     max-width: 150px;
 }
+/* benefits sidebar aside end */
 
-/* id Selectors */
+/* -------------- Class Selectors End --------------- */
+
+/* -------------- id Selectors Start ---------------- */
+
+/*Full screen image */
 #hero {
     height: 800px;
     width: 100%;
@@ -120,12 +136,14 @@ footer {
     background-position: center;
 }
 
+/* wrapper for the services section */
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* wrapper for the benefits sidebar aside */
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -136,6 +154,8 @@ footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* -------------- id Selectors end ---------------- */
 
 
 
